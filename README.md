@@ -45,13 +45,6 @@ For this Spring Boot project add dependencies just as below in POM.xml file of p
         <scope>test</scope>
     </dependency>
 ```
-And we'll also add the below information for the property file for this project under the build section of our POM.xml file (to change the port number at the moment):
-        <resource>
-            <directory>src/main/resources</directory>
-            <filtering>true</filtering>
-        </resource>
-
-
 
 ## Add Application Properties
 
