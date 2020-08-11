@@ -1,3 +1,3 @@
-# RestFul-SpringBoot
+# RESTful-SpringBoot
 
-POC for Spring boot restFul service 
+POC for Spring boot RESTful service 
