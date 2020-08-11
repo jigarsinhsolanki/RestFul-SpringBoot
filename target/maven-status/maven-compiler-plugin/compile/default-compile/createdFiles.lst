@@ -1,0 +1,6 @@
+com/restfulService/controllers/StudentRetrieveController.class
+com/restfulService/controllers/StudentRegistrationController.class
+com/restfulService/beans/StudentRegistrationReply.class
+com/restfulService/beans/StudentRegistration.class
+com/restfulService/beans/Student.class
+com/restfulService/Application.class
