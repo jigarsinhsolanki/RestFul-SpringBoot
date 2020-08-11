@@ -9,13 +9,13 @@ In this application there is two end points are created, student data registrati
 ## How to Run
 To use this project, you are going to need:
 * Java JDK 8 (1.8)
-* Maven compatibile with JDK 8
-*	Any Java IDE
-*	Postman tool
+* Maven 3.x
+* Any Java IDE
+* Postman tool
 
 We are going to build a demo app named as RESTful-Spring Boot. This will be a simple web service with create and read operations. I'm going to demonstrate default and external configuration, how to use multiple implementation and autowire them within the code. Our app will be a standalone application that we can use independently, and we are going to use an embedded tomcat.
 
-## Spring Boot Dependencies
+## Add Dependencies
 For this Spring Boot project add dependencies just as below in POM.xml file of project. 
 ```
 <dependency>
@@ -57,6 +57,17 @@ spring.profiles.active=@spring.profiles.active@
 In this part, I'm going to demonstrate all operations defined in our StudentRegistrationController class and StudentRetrieveController how to test them either with our web browser or with the Postman tool. 
 
 We can test our GET methods with any web browser but for operations that use HTTP POST methods, we cannot execute them with a simple web browser, so I'm going to use Postman tool for that. I've provided create and read operations within postman, so that you can load all the prepared operations in Postman tool.
+
+**RESTful service which can get request and give response**
+* Full integration with the latest Spring Framework: inversion of control, dependency injection, etc.
+* Packaging as a single war with embedded container (tomcat 8): No need to install a container separately on the host.
+* Demonstrates how to set up GET and POST EndPoints for Managing data automatically on a configured port.
+* Writing a RESTful service using annotation: Supports JSON request / response.
+* Exception mapping from application exceptions to the right HTTP response with exception details in the body.
+* All APIs are currently not documented I'll add some in future.
+
+Here are some endpoints you can call:
+
 
 **Register student** 
 ```
