@@ -15,7 +15,7 @@ To use this project, you are going to need:
 
 We are going to build a demo app named as RESTful-Spring Boot. This will be a simple web service with create and read operations. I'm going to demonstrate default and external configuration, how to use multiple implementation and autowire them within the code. Our app will be a standalone application that we can use independently, and we are going to use an embedded tomcat.
 
-## Create Spring Boot Project With Maven
+## Spring Boot Dependencies
 For this Spring Boot project add dependencies just as below in POM.xml file of project. 
 ```
 <dependency>
