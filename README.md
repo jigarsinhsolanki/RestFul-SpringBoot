@@ -46,9 +46,7 @@ For this Spring Boot project add dependencies just as below in POM.xml file of p
     </dependency>
 ```
 
-## Add Application Properties
-
-Now open file application.properties  and add the below lines in it:
+## Add the below line in application.properties file:
 
 spring.profiles.active=@spring.profiles.active@
 
